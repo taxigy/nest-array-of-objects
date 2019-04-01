@@ -21,7 +21,7 @@ const pack = (k, v, xs) => {
   let result = {};
 
   for (let x of xs) {
-    set(result, get(x, k).split('.'), get(x, v));
+    set(result, get(x, k).split("."), get(x, v));
   }
 
   return result;

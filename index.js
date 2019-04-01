@@ -13,8 +13,8 @@ const run = async () => {
   const input = await read(process.stdin);
   const json = JSON.parse(input);
   const output = pack(
-    process.env.KEY_PROPERTY.split('.'),
-    process.env.VALUE_PROPERTY.split('.'),
+    process.env.KEY_PROPERTY.split("."),
+    process.env.VALUE_PROPERTY.split("."),
     json
   );
 
