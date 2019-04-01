@@ -1,0 +1,8 @@
+{
+  "name": "nest-array-of-objects",
+  "version": "1.0.0",
+  "description": "A CLI tool to turn a flat array of objects with dot-separated pseudo-keys into a nested object",
+  "main": "index.js",
+  "author": "Rishat <rishat@rishat.us>",
+  "license": "MIT"
+}
